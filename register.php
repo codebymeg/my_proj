@@ -287,7 +287,8 @@ if (validate_required(cpass,"confirm password must be filled out!")==false)
     <td height="31" colspan="2"><b> <input class="button" type="submit" name="submit" value="&nbsp;&nbsp;&nbsp;&nbsp;Submit&nbsp;&nbsp;&nbsp;&nbsp;" style="background:url(images/loginbutton.jpg) center top" tabindex="11"> &nbsp; &nbsp; <input class="button" type="reset" value="&nbsp;&nbsp;&nbsp;&nbsp;Clear&nbsp;&nbsp;&nbsp;&nbsp;"style="background:url(images/loginbutton.jpg) center top" tabindex="12"></b>&nbsp;</td>
   </tr>
 </table>
-<b class="asterik" style="font-family:Tahoma" style="font-size:14px">* Mandatory fields.</b>
+<b class="asterik" style="font-family:Tahoma" style="font-size:14px">* Mandatory fields.</b></br>
+<b class="asterik" style="font-family:Tahoma" style="font-size:14px">Testing for Git commit.</b>
 <!-- </body> -->
 </form>
 <!-- </html> -->
