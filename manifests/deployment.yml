@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: loginapp 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: loginapp
+  template:
+    metadata:
+      labels:
+        app: loginapp 
+    spec:
+      containers:
+        - name: loginapp 
+          image: meghacontainerreg.azurecr.io/loginapp
+          ports:
+          - containerPort: 8080
